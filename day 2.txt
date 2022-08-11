@@ -1,0 +1,69 @@
+DOCUMENT OBJECT 
+	It represent a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document.
+
+Syntax:
+
+document.property_name
+
+
+Lists of Properties of document:
+
+activeElement,body,anchors,baseURI,cookie,charSet,defaultView,designMode,domain,doctype,embeds,URL,forms,title,head,links,images,implementation,readyState,scripts
+
+
+Methods of Document:
+
+Syntax:
+
+document.method_name;
+
+
+The lists of most commonly used methods are listed below:
+
+addEventListener(),adoptNode(),close(),createAttribute(),createComment(),createDocumentFragment(),createElement(),createEvent(),createTextNode(),execCommand(),fullscreenEnabled(),getElementById(),getElementsByClassName(),getElementsByName(),getElementsByTagName(),hasFocus(),importNode(),normalizeDocument(),open(),querySelector(),querySelectorAll() ,removeEventListener(),renameNode(),write(),writeln()
+
+
+
+WINDOW OBJECT
+	 The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+
+Syntax:
+
+window.property_name;
+The properties of Window objects that are commonly used are listed in the below table:
+
+Properties of the window:
+
+Closed,console,defaultStatus,controllers,customElements, crypto, devicePixelRatio,Document,DOMMatrix,frames[],DOMPoint,History,Length,DOMRect,fullScreen,Location,innerHeight,innerWidth,Name,Window,Navigator,outerHeight,outerWidth,Status,Top,Toolbar,Opener,Parent,Self
+
+Methods of Window:
+
+Syntax:
+
+window.method_name;
+
+The methods of Window objects that are commonly used are listed in the below table:
+
+alert()
+atob()
+blur()
+btoa()
+clearInterval()
+clearTimeout()
+close()
+confirm()
+focus()
+getComputedStyle()
+getSelection()
+matchMedia()
+open()
+moveBy()
+moveTo()
+prompt()
+resizeBy()
+resizeTo()
+scrollBy()
+scrollTo()
+setInterval()
+setTimeout()
+stop()
